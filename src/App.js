@@ -8,7 +8,7 @@ class App extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      filteredEmoji: filterEmoji("", 20)
+      filteredEmoji: filterEmoji("", 100)
     };
   }
 
